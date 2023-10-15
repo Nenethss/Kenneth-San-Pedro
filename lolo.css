@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit';background: rgb(48,180,102);
+    background: linear-gradient(90deg, rgba(48,180,102,1) 0%, rgba(25,98,74,1) 100%);
+}
+
+.logo {
+color: white;
+font-size: 2.2rem;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0px -2px 25px 3px rgba(0, 0, 0, 0.88);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background: rgb(48,180,102);
+    background: linear-gradient(90deg, rgba(48,180,102,1) 0%, rgba(25,98,74,1) 100%);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transition: 0.5s ease;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+span{
+    color: #2C8233;
+}
+
+.content {
+    width: 100%;
+    padding: 100px 100px 0px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+}
+
+.left-content h1 {
+    font-size: 50px;
+}
+
+h1, p {
+    color: rgb(255, 255, 255);
+}
+
+.aside {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.element {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.l-content {
+    text-align: center;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    color: white 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+}
+
+ol {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+}
+
+.aside1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.aside1 h1 {
+    color: #1f834f !important;
+    padding-top: 20px;
+    font-size: 31px !important;
+}
+
+
+#content1 {
+    width: 100%;
+    height: 30rem;
+    padding: 30px 2rem;
+    background: rgb(48,180,102);
+    background: linear-gradient(90deg, rgba(48,180,102,1) 0%, rgba(25,98,74,1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content1 h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.Project {
+    width: 100%;
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.Project .sub-img {
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.project1 {
+    height: 300px;
+    width: 280px;
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    height: 50%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.project1 p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.project1 h3 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 10px;
+  margin: 10px;
+}
+
+#Gallery h1 {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#Gallery {
+    padding: 30px 20px 0px;
+    background: rgb(22,22,22);
+background: linear-gradient(90deg, rgba(22,22,22,1) 0%, rgba(9,9,9,1) 100%);
+    height: 38rem;
+}
+
+.Gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    width: 100%;
+    height: 500px;
+    transition: all 400ms;
+    background: rgb(22,22,22);
+    background: linear-gradient(90deg, rgba(22,22,22,1) 0%, rgba(9,9,9,1) 100%);
+}
+
+.box {
+    background: var(--img) center center;
+    background-size: cover;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Gallery:hover .box {
+    filter: grayscale(100%) opacity(24%);
+}
+
+.Gallery:hover .box:hover {
+    filter: grayscale(0%) opacity(100%);
+}
+
+.Gallery:has(.box-1:hover) {
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Gallery:has(.box-2:hover) {
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Gallery:has(.box-3:hover) {
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Gallery:has(.box-4:hover) {
+    grid-template-columns: 1fr 1fr 1fr 3fr 1fr 1fr 1fr 1fr;
+}
+
+.Gallery:has(.box-5:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+}
+
+.Gallery:has(.box-6:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 3fr 1fr 1fr;
+}
+
+.Gallery:has(.box-7:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 3fr 1fr;
+}
+
+.Gallery:has(.box-8:hover) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+}
+
+.box :nth-child(odd) {
+    transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+    transform:translateY(16px);
+}
+
+
+
+.box :nth-child(odd) {
+    transform: translateY(-16px);
+}
+
+.box:nth-child(even) {
+    transform:translateY(16px);
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+
+footer {
+    height: 7rem;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+}
